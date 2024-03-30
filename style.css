@@ -1,0 +1,721 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap');
+
+body{
+    
+    /* background-repeat: no-repeat; */
+    background-size: 100% ;
+    /* width :100%; */
+    margin: 0;
+    padding: 0;
+    
+    /* background-image: url("Image/darkgreen3
+}
+.mainlogo{
+    height: 90px;
+    /* padding-left: 50px; */
+}
+
+
+/* --------------------scrollbar------------------------- */
+::-webkit-scrollbar {
+    width:3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:rgb(231, 170, 57); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(231, 170, 57); 
+  }
+
+/* .navbar{
+  background-color: rgb(0, 0, 0);
+  height: 10px;
+ 
+} */
+
+.PosterBanner{
+    height: 500px;
+    display: flex;
+    /* position: absolute; */
+    /* margin-top: -5.2%; */
+    
+
+    
+}
+.rendervideo{
+
+    width: 100%;
+    
+    height: 153.3%;
+
+}
+.title{
+    color: #ccc;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: -30%;
+    font-size: 40px;
+}
+
+
+
+/* .navabarlinksconnect{
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    margin: auto;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    background-color: rgb(231, 170, 57);
+    backdrop-filter: blur(50px);
+    float:right;
+    font-weight: 800;
+} */
+/* ---------------------------header----------- */
+
+/* .model{
+   float: right;
+   margin-left: 70%;
+   height: 420px;
+   margin-top: 40px;
+   border: 1px solid rgb(71, 60, 38);
+   border-radius: 150px 150px ;
+}
+.model:hover{
+    background-color: rgb(231, 170, 57) ;
+    translate:  1px ;
+    transition: 2s;
+    cursor: pointer;
+
+} */
+
+
+/* .logo{
+    height: 70px;
+    filter: invert(100%);
+    padding-left: 15px;
+    position: absolute;
+} */
+
+/* .bannerimage{
+    width: 100%;
+    object-fit: cover;
+      
+} */
+
+/* .text{
+     
+        position: absolute;
+        color: rgb(255, 255, 255);
+        padding-left: 60px;
+        padding-right: 20px;
+        padding-top: 120px;
+        position: absolute;
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Quicksand', sans-serif;
+        
+
+        font-size: 20px;
+        color:  rgb(231, 170, 57);
+        
+        
+}
+    
+p{
+    
+    font-size: 14px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #ccc;
+}
+a.Database{
+    text-decoration: none;
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 10%;
+    border-radius: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    backdrop-filter: blur(10px);
+
+}
+a.Database:hover{
+    background-color: rgb(167, 135, 77);
+    transition: 2s;
+}
+.watchvideo{
+    color: rgb(231, 170, 57) ;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 55px;
+    display: flex;
+
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    background-image: url("Image/plainwhite.jpg");
+    /* border-radius: 15px 15px; */
+    font-family: 'Inter', sans-serif;
+    width: 20%;
+    color: orangered;
+    /* margin-left: 250%; */
+  margin-top: -33%;
+  float: right;
+  margin-right:40px;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    /* position:fixed; */
+    
+    
+    flex: wrap;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+h2{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#textbox{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.registerbtn{
+    width: 184px;
+    height: 42px;
+        margin-top: 4%;
+    
+
+
+}
+.registerbtn:hover{
+    cursor: pointer;
+}
+
+.customerdetail{
+    background-image: url("Image/yellowcustomer.jpg");
+    height: 20px;
+
+   
+}
+
+/* ----------------greybanner------------------------------------- */
+
+.greybanner{
+    height: 100px;
+    margin-top: 33%;
+    margin-left: 15%;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 70vw;
+    border-radius: 5px;
+    display: flex;
+
+    /* padding: 5px; */
+    backdrop-filter: blur(10px);
+    position: absolute;
+  
+}
+
+.Lv{
+    height: 80%;
+    filter: invert(100%);
+    padding-left: 20%;
+   
+}
+
+.marnam{
+    height: 78%;
+    filter: invert(100%);
+    padding-left: 10%;
+    padding-top: 7px;
+    
+}
+
+.tanishq{
+    height: 30%;
+    filter: invert(100%);
+    padding-left: 10%;
+    padding-top: 33px;
+}
+.tanishq2{
+    height: 30%;
+    filter: invert(100%);
+    padding-left: 10%;
+    /* padding-top: -53px; */
+}
+.bucallti{
+    height: 70%;
+    filter: invert(100%);
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.subscribe{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+.card_info{
+    height: 60vh;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    
+    position: relative;
+   
+    margin-top: 32%;
+   
+    
+    
+}
+
+.buyerbox{
+  /* border: 1px solid blue; */
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+     
+}
+
+.buyer{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 55px;
+}
+.span{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: -2%;
+    display: flex;
+    font-weight: 200;
+   margin-left:29%;
+   
+    font-family: 'DM Sans', sans-serif;
+}
+.customize{
+    margin-top: 5%;
+    height: 80%;
+    display: flex;
+    /* border: 1px solid grey; */
+    /* width:100%; */
+    position: relative;
+
+}
+
+/* -------------------epitome-----banner-------------------------------- */
+
+.bussiness_1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 3.5%;
+    margin-left: 4.2%;
+    
+}
+
+
+
+
+
+.italymodel{
+    height: 300px;
+    margin-left: 20%;
+    border-radius: 50px 50px;
+}
+
+.blue4{
+    height: 100px;
+}
+.jwllerycircle{
+    height: 80%;
+    width: 100%;
+    margin-top: 6%;
+    position: relative;
+    
+
+}
+
+
+.newbanner{
+    background-image: url("Image/redmodel.jpg");
+    height: 50%;
+    margin-top:-20% ;
+}
+.greybanner2{
+    height: 100px;
+    /* margin-top: 33%; */
+    margin-left: 15%;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 70vw;
+    border-radius: 5px;
+    /* display: flex; */
+
+    /* padding: 5px; */
+    backdrop-filter: blur(10px);
+    /* position: absolute; */
+}
+
+/* <!-- -----------------------Short header--------------------- -- */
+
+.patnership{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 10%;
+
+
+}
+
+/* ----------------------cards_info______________ */
+
+
+.products{
+    height: 350px;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 36%;
+    position: relative;
+}
+.bestproduct{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 33px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.bestproduct2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: -1%;
+}
+.earring{
+    
+    /* border: 1px solid rgb(192, 141, 52); */
+    border-radius: 50px;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+    height: 120px;
+    /* background-color: yellowgreen; */
+    margin-left: 8.3%;
+    margin-top: 2%;
+    position: absolute;
+    position: sticky;
+}
+.earring:hover{
+    /* background-color: rgb(109, 105, 105) ; */
+    filter: drop-shadow(5px 10px 50px rgb(0, 0, 0));
+    /* translate:  1px ; */
+    transition: 1s;
+    /* box-shadow: 0 3px 50px rgb(192, 141, 52); */
+    cursor: pointer;
+
+}
+
+
+/* --------------------main content -------------------------------- */
+
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 170, 57);
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  
+  #light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: 50%;
+    border: 1px solid rgb(231, 170, 57);
+    background: rgb(231, 170, 57);
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+  #boxclose {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid rgb(231, 170, 57);
+    border-radius: 3px;
+    background:rgb(231, 170, 57);
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  
+  .boxclose:before {
+    content: "×";
+  }
+  
+  #fade:hover ~ #boxclose {
+    display:none;
+  }
+  
+  .test:hover ~ .test2 {
+    display: none;
+  }
+.videoclipart{
+    height: 50px;
+    margin-left: 20%;
+    margin-top: -30px;
+    position: absolute;
+    border-radius: 50% 50%;
+  }
+  .videoclipart:hover{
+    background-color: rgb(231, 170, 57);
+    transition: 1s;
+    border-radius: 50% 50%;
+  }
+ 
+
+   /* ------------------------- */
+ .line{
+    height: 2px;
+    border: 1px solid rgb(139, 139, 139);
+   }
+   
+
+   /* ----------------content--- */
+   .content{
+    height:50vh;
+    width: 100%;
+    /* border: 1px solid rgb(196, 190, 190); */
+    /* background-image: url("Image/dulhan3.jpg"); */
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+
+   }
+
+/* -----------------------footer----------------- */
+
+
+.lookproduct{
+    height: 350px;
+    width: 100%;
+    position: relative;
+
+}
+.lookproducttext{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 33px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.lookproductimage{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: -1%;
+}
+.earringimage{
+
+    border-radius: 50px;
+
+    padding-bottom: 5%;
+    height: 150px;
+ 
+    margin-left: 8.3%;
+    margin-top: 2%;
+    position: absolute;
+    position: sticky;
+}
+
+.formbox{
+
+    height: 380px;
+    width: 25%;
+    margin-left: 3%;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.formboxtext{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+.formboxtext1{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: -px;
+}
+.forminputbox{
+    text-align: center;
+    height: 40px;
+    margin-left: 50px;
+    width: 70%;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 20px;
+    
+}
+
+.Submitbutton {
+    background-color: #ecaf52;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .sidetextbanner{
+    /* border: 1px solid rgb(150, 114, 114); */
+    height: 380px;
+    width: 750px;
+    margin-left: 150%;
+    position: relative;
+    /* background-color: black; */
+    margin-top: -380px;
+    /* background-image: url("Image/sweetgirl.jpg"); */
+    
+
+
+  }
+  .Sweetgirl{
+    height: 63vh;
+    border-radius: 90px 10px;
+    margin-left: 70px;
+    /* border: 5px solid rgb(230, 0, 0); */
+  }
+
+  /* --------------------------------------- */
+  .footer{
+    background-color: black;
+    height: 20vh;
+    margin-top: 200px;
+  }
+  .Footertext{
+    color: white;
+    font-size: 10px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+/* ============================formbox******************** */
+
+.newformbox{
+    /* border: 1px solid green; */
+    height: 385px;
+    margin-left: 50px;
+    width: 290px;
+    background-color: black;
+
+}
+.formbutton{
+background-color: #ecaf52;
+color: white;
+padding: 15px 32px;
+font-family: 'DM Sans', sans-serif;
+border: none;
+display: flex;
+margin-top: 17px;
+text-decoration: none;
+justify-content: center;
+font-size: 16px;
+cursor: pointer;
+width: 100%;
+}
+.textarea{
+    text-align: center;
+    height: 30px;
+    width: 70%;
+    font-family: 'DM Sans', sans-serif;
+
+}

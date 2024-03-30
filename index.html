@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<script src="main.js"></script>
+
+    
+<body>
+        
+    <!-- <div class="navbar">
+       
+   
+   
+   
+    
+
+    
+
+
+   
+</div> -->
+
+
+        <!-- ------------Header---------------- -->
+
+        
+        <div class="PosterBanner">
+            <video autoplay muted loop class="rendervideo">
+              <source src="Video/rendervideo.mkv" type="video/mp4">
+             
+            </video>
+            
+<div class="greybanner">
+    
+    <img src="Image/harry.png" alt="" class="Lv" ; >
+    <img src="Image/marnam.png" alt="" class="marnam" ; >
+    <img src="Image/tanishq.png" alt="" class="tanishq" ; >
+    <img src="Image/jwellery one.png" alt="" class="bucallti" ; >
+
+</div>
+</div>
+
+
+<!-- --------------------secondbanner--------------- -->
+
+
+
+<div class="patnership">
+<h1 class = "title">GemsGallery</h1>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- ----------buyer+----------------- -->
+
+<div class="card_info">
+    <div class="buyerbox">
+     
+    <h1 class="buyer">Become royal </h1>
+    <h1 class="span">Where Every Gem Shines with Perfection and confidence and discover now </h1>
+    </div>
+
+
+
+<div class="customize"> 
+
+    <h1 class="bussiness_1">Elevate your style with  Timeless Glamour<br> Modern Sophistication  elegance</h1><br>
+ 
+
+    <img src="Image/italymodel.jpg" class="italymodel" alt="">
+
+    
+
+
+</div>
+
+
+
+<div class="jwllerycircle">
+    <div class="greybanner2">
+    
+        <img src="Image/harry.png" alt="" class="Lv" ; >
+        <img src="Image/marnam.png" alt="" class="marnam" ; >
+        <img src="Image/tanishq.png" alt="" class="tanishq2" ; >
+        <img src="Image/jwellery one.png" alt="" class="bucallti" ; >
+    
+    </div>
+</div>
+
+<div class="newbanner"></div>
+
+
+
+
+
+</div>
+
+<!-- ------------------------------products------------------------- -->
+
+
+<div class="products">
+    <h1 class="bestproduct">Explore our best product</h1>
+    <h1 class="bestproduct2"> change your appearance</h1>
+
+    <img src="Image/reddiamond.png" class="earring"   alt="earring1">
+    <img src="Image/diamondround.png" class="earring"   alt="earring1">
+    <img src="Image/bluediamonds.png" class="earring"   alt="earring1">
+    <img src="Image/newdiamond.png" class="earring"   alt="earring1">
+    <img src="Image/greendiamond.png" class="earring"   alt="earring1"><br>
+    
+  
+</div>
+<div class="lookproduct">
+    <h1 class="lookproducttext">Get your idea by look</h1>
+    <h1 class="lookproductimage"> Enhancing the idea to design</h1>
+
+    <img src="Image/blackgold.jpeg" class="earringimage"   alt="earring1">
+    <img src="Image/EARGOLD.jpeg" class="earringimage"   alt="earring1">
+    <img src="Image/italymodel.jpg" class="earringimage"   alt="earring1">
+    <!-- <img src="Image/models.png" class="earringimage"   alt="earring1"> -->
+    <img src="Image/greenear.jpeg" class="earringimage"   alt="earring1">
+    <img src="Image/smileear.jpeg" class="earringimage"   alt="earring1"><br>
+    
+  
+</div>
+
+
+
+
+<!-- ----------------------------formbox-------------- -->
+<!-- <div class="content">
+<div class="formbox">
+<h1 class="formboxtext">GET IN TOUCH</h1>
+<h1 class="formboxtext1">Elevate your style with Italian luxury jewels
+    <br>timeless elegance</h1>
+<input type="text" class="forminputbox" name="fname" placeholder="Full Name  "><br><br>
+<input type="text" class="forminputbox" name="fname" placeholder="Email  "><br><br>
+<a href="Submit" class="Submitbutton">SUBMIT</a>
+
+<div class="sidetextbanner">
+   
+<img src="Image/sweetgirl.jpg" class="Sweetgirl">
+   
+</div>
+
+</div>
+</div> -->
+
+
+<div class="newformbox">
+    <h1 class="formboxtext">GET IN TOUCH</h1>
+    <h1 class="formboxtext1">Elevate your style with Italian luxury jewels
+        <br>timeless elegance</h1><br>
+    <form method="post" name="google-sheet">
+      <label for="name">Name</label>
+      <input type="text" id="fname" name="Name" placeholder="Full Name " class="textarea">
+        <br><br>
+
+      <label for="email">Email</label>
+      <input type="text" id="lname" name="Email" placeholder="Email" class="textarea">
+      <br><br>
+
+      <label for="mobile">Email</label>
+      <input type="text" id="lname" name="Mobile" placeholder="Mobile Number" class="textarea">
+      <br><br>
+
+      <!-- <label for="mobile">Mobile</label>
+      <input type="text" id="lname" name="Mobile" placeholder="Your Mobile number .." class="textarea">
+      <br><br> -->
+     
+    
+    <input type="submit" value="Submit" name="submit" class="formbutton">
+    </form>
+
+    <div class="sidetextbanner">
+   
+        <img src="Image/sweetgirl.jpg" class="Sweetgirl">
+           
+        </div>
+  </div>
+
+
+
+  <script>
+  
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwfKvFPPueW8fqZuaYb243NDPyTaSQQGB0OUO6bFYkLngplzhEWfISfEWFXLpYO_VFZ/exec'
+              const form = document.forms['google-sheet']
+            
+              form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => alert("Thanks for register "))
+                  .catch(error => console.error('Error!', error.message))
+              })
+  
+  </script>
+  
+
+
+
+<!-- ----------------------------- -->
+
+
+</div>
+
+<div class="footer">
+
+<h1 class="Footertext">Elevate your style with Italian luxury jewels
+    <br>timeless elegance and keep transform yourself with everything and do on GemsGallery</h1>
+<h1 class="Footertext">GemsGallery</h1>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
